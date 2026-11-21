@@ -45,10 +45,10 @@ export const siteConfig: SiteConfig = {
 	title: "负者的博客",
 
 	// 站点副标题
-	subtitle: "记录技术与生活",
+	subtitle: "黑与白之间",
 
 	// 站点 URL
-	site_url: "https://firefly.cuteleaf.cn",
+	site_url: "https://www.fuzhe.cc/",
 
 	// 站点描述
 	description:
