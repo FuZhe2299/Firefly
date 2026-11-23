@@ -68,6 +68,9 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 			// 书签导航
 			LinkPresets.Booknav,
 
+			// 关于页面
+			LinkPresets.About,
+
 			// 哔哩哔哩追番
 			LinkPresets.Bilibili,
 
@@ -88,11 +91,10 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		url: "#",
 		icon: "material-symbols:info",
 		children: [
-			// 打赏
+			// 打赏（开关见 siteConfig.pages.sponsor，当前关闭）
 			LinkPresets.Sponsor,
 
-			// 关于页面
-			LinkPresets.About,
+			// 关于页面已移至“我的”菜单；“关于”下无可见子项时会自动隐藏
 		],
 	});
 

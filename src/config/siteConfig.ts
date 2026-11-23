@@ -20,9 +20,9 @@ const pages = resolvePageToggles({
 	// 动态页面开关
 	dynamic: true,
 	// 项目展示页开关
-	projects: true,
+	projects: false,
 	// 相册页面开关
-	gallery: true,
+	gallery: false,
 	// 书签导航页面开关
 	booknav: true,
 	// 哔哩哔哩追番页面开关
@@ -37,7 +37,7 @@ const pages = resolvePageToggles({
 	// ── 关于 (About) ──────────────────────────────────
 
 	// 打赏页面开关
-	sponsor: true,
+	sponsor: false,
 });
 
 export const siteConfig: SiteConfig = {
