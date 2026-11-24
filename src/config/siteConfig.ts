@@ -24,7 +24,7 @@ const pages = resolvePageToggles({
 	// 相册页面开关
 	gallery: false,
 	// 书签导航页面开关
-	booknav: true,
+	booknav: false,
 	// 哔哩哔哩追番页面开关
 	bilibili: false,
 	// 番组计划页面开关
@@ -90,12 +90,16 @@ export const siteConfig: SiteConfig = {
 	// 如果启用了OpenGraph图片功能，数组中需要包含png格式的favicon图标
 	favicon: [
 		{
-			// 图标文件路径
-			src: "/favicon/firefly-32.png",
-			// 可选，指定主题 'light' | 'dark'
-			// theme: "light",
+			// 图标文件路径（192px，高分辨率与 iOS 主屏图标）
+			src: "/favicon/鳗鱼192.png",
 			// 可选，图标大小
-			// sizes: "32x32",
+			sizes: "192x185",
+		},
+		{
+			// 图标文件路径（浏览器标签页）
+			src: "/favicon/鳗鱼-32.png",
+			// 可选，图标大小
+			sizes: "48x46",
 		},
 	],
 
@@ -112,9 +116,9 @@ export const siteConfig: SiteConfig = {
 		// 使用 Astro 图标库时不需要设置 valueDark，图标会自动跟随主题亮暗色切换
 		logo: {
 			type: "image",
-			value: "assets/images/logo/firefly-light.png",
-			valueDark: "assets/images/logo/firefly-dark.png",
-			alt: "🍀",
+			value: "assets/images/logo/章鱼-light.png",
+			valueDark: "assets/images/logo/章鱼-dark.png",
+			alt: "🐙",
 		},
 		// 导航栏标题
 		title: "Firefly Blog",
