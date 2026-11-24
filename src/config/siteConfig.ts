@@ -45,7 +45,7 @@ export const siteConfig: SiteConfig = {
 	title: "负者的博客",
 
 	// 站点副标题
-	subtitle: "黑与白之间",
+	subtitle: "将死之人的自娱自乐",
 
 	// 站点 URL
 	site_url: "https://www.fuzhe.cc/",
